@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'karabiner::exec' do
-  let(:version) { '10.11.0' }
+  let(:version) { '10.21.10' }
   cli = '/Applications/Karabiner.app/Contents/Library/bin/karabiner'
 
   context 'with command list' do

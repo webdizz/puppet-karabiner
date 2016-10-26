@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'karabiner::login_item' do
-  let(:version) { '10.11.0' }
+  let(:version) { '10.21.10' }
 
   it do
     should contain_class('karabiner::config')
